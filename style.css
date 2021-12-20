@@ -1,0 +1,120 @@
+
+
+      .container{
+        display:inline-flex; 
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    
+
+    .resilia{ 
+        background-color:  rgb(238, 181, 37);
+        background-origin: content-box;
+        color: black;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        text-align: center;
+        font-size: 30px;
+        display: inline-block;
+        width: 500px;
+       
+    }
+        
+     .home{
+       
+         background-color: darkgray;
+         color: orange;
+         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+         text-align: center;
+         font-size: 30px;
+        display: inline-block;
+        width: 270px;
+        justify-content: space-between;
+                
+     }
+     .home:hover{
+       color: blue;
+     }
+     .sobre{
+       
+        background-color: darkgray;
+        color: orange;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        text-align: center;
+        font-size: 30px;
+       display: inline-block;
+       width: 270px;
+       justify-content: space-between;
+     }
+     .sobre:hover{
+       color: blue;
+     }
+     .contato{
+       
+        background-color: darkgray;
+        color: orange;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        text-align: center;
+        font-size: 30px;
+       display: inline-block;
+       width: 270px;
+       justify-content: space-between;
+     }
+     .contato:hover{
+         color: blue;
+     }
+     .container {
+        flex-direction:row;
+        
+      }
+      body{
+          background-color: papayawhip;
+          background-repeat: no-repeat;
+            
+      }
+
+      .imagem{
+        display: flex;
+        justify-content: space-between;
+        margin: 6%;
+        padding: 10px;
+      }
+      .animal1{
+       
+        width: 30%;
+        height: 100%;
+        border-radius: 40%;
+        image-rendering: crisp-edges;
+        
+
+      }
+      .animal2{
+        width: 25%;
+        height: 350px;
+        border-radius: 40%;
+        
+      }
+      .animal3{
+        width: 25%;
+        height: 20%;
+        border-radius: 40%;
+      
+
+      }
+      .animal4{
+        width: 25%;  
+        height: 15%;
+        border-radius: 40%;
+        border: skyblue;   
+       
+      }
+
+      .rodape{
+        text-align: center;
+        color: orange;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      }
+      
+    
+    
+    
